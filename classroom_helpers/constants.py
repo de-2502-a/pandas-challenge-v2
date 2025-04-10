@@ -88,17 +88,17 @@ TASKS = [
             {
                 "task_marker": "### Task 4.3",
                 "args": ["all_students_data_df", "grading_change=task_4_2()"],
-                "return": ["all_students_data"],
+                "return": ["all_students_data_df"],
             },
         ],
     },
     {
         "task": "task_5",
-        "dataframes": ["all_students_data", "math_a_students"],
+        "dataframes": ["all_students_data_df", "math_a_students"],
         "subtasks": [
             {
                 "task_marker": "### Task 5.1",
-                "args": ["all_students_data"],
+                "args": ["all_students_data_df"],
                 "return": ["math_a_students"],
             },
             {
